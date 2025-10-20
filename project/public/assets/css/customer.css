@@ -1,0 +1,25 @@
+.profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--space-lg);
+}
+
+.wallet-balance {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--color-accent);
+}
+
+.orders-grid {
+    display: grid;
+    gap: var(--space-md);
+}
+
+.orders-grid .card {
+    transition: transform var(--transition-base);
+}
+
+.orders-grid .card:hover {
+    transform: translateY(-2px);
+}

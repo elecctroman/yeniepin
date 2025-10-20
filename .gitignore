@@ -1,0 +1,3 @@
+project/.env.php
+project/storage/cache/*.cache
+project/storage/uploads/csv/*
